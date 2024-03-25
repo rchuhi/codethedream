@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+	column-gap: 25px;
+    min-height: 600px;
+   
+}
+
+nav {
+    background-color: #9ceeed; 
+    color: #090606; 
+    padding: 40px; 
+    
+}
+
+nav li {
+    display: inline; 
+    margin-right: 20px; 
+    font-size: 30px;
+}
+
+nav li a {
+    color: #0d0b0b; 
+    text-decoration: none; 
+}
+ nav a.active, a:hover{
+    background:rgb(236, 242, 117) ;
+    transition: .3s;
+    padding: 10px;
+}
+header {
+    text-align: center; 
+}
+
+#breedInfo,
+#selectedBreedImage {
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);  */
+    margin-right: 20px; 
+    
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Dog images */
+.image {
+    margin: 10px;
+    width: calc(25% - 20px); 
+    
+}
+
+.image img {
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
+}
+/* breed page */
+.breed-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+button{
+    background-color: #9ceeed;
+    padding: 20px 30px;
+    border-radius: 15px;
+    align-items: center;
+    border: #9ceeed;;
+    
+    
+}
+button a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+button a:hover{
+    background-color: #9ceeed;;
+    
+}
+footer{
+    text-align: center;
+    border: solid #9ceeed;
+    background-color: #9ceeed;
+    padding: auto;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}

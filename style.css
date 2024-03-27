@@ -1,3 +1,6 @@
+/* Reg Chuhi
+ March 2024 */
+
 body{
     margin: 0;
     padding: 0;
@@ -79,7 +82,7 @@ img{
     list-style-type: none;
     padding: 0;
 }
-
+/* Drop down */
 select {
     padding: 5px;
     font-size: 16px;
@@ -87,24 +90,27 @@ select {
     border-radius: 7px;
     margin-bottom: 5px;
 }
+
 button{
     background-color: #9ceeed;
     padding: 20px 30px;
     border-radius: 15px;
     align-items: center;
     border: #9ceeed;;
-    
-    
+        
 }
+
 button a{
     text-decoration: none;
     color: #000000;
     
 }
+
 button a:hover{
     background-color: #9ceeed;;
     
 }
+
 footer{
     text-align: center;
     border: solid #9ceeed;

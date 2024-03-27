@@ -1,3 +1,7 @@
+// Reg Chuhi
+// March 2024
+// This function fetches 10 images from the provided URL.
+
 document.addEventListener("DOMContentLoaded", function() {
     fetchAllImages();
 });
@@ -11,7 +15,7 @@ async function fetchAllImages() {
         console.error('Image not found:', error);
     }
 }
-
+// This function displays the 10 fetched images and loads then on the home page.
 function displayAllImages(images) {
     const gallery = document.getElementById('allPics');
 
@@ -102,6 +106,7 @@ function displayAllImages(images) {
             selectedImage.innerHTML = '<h3>No Image Available</h3>';
         }
     }
+
 
 
 
